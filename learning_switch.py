@@ -16,7 +16,7 @@ class LearningSwitch(app_manager.RyuApp):
         super(LearningSwitch, self).__init__(*args, **kwargs)
         self.mac_to_port = {}
 
-        # Counters (for clean demo)
+        # Counters
         self.flood_count = 0
         self.forward_count = 0
 
